@@ -18,7 +18,7 @@ import CreatePatientForm from "./routes/create-patient";
 import PatientDetailPage from "./routes/patient-detail";
 import Success from "./routes/success";
 
-const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
+const PUBLISHABLE_KEY = 'pk_test_bWVhc3VyZWQtdHVuYS04LmNsZXJrLmFjY291bnRzLmRldiQ';
 
 if (!PUBLISHABLE_KEY) {
   throw new Error("Missing Publishable Key");
