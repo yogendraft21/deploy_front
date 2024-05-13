@@ -46,10 +46,6 @@ const router = createBrowserRouter([
             path: "/dashboard/patient-detail/:userId",
             element: <PatientDetailPage />,
           },
-          {
-            path: "/dashboard/pay/success",
-            element: <Success />,
-          },
         ],
       },
     ],
